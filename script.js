@@ -49,7 +49,7 @@ function trocarTamanho() {
     tamanhoSelecionado = idOpcaoSelecionada.charAt(0);
 
     //mudar o título do produto de acordo com a opção de tamanho selecionada
-    tituloProduto.innerText = "Pulseira loop esportiva " + opcoesCores[corSelecionada].nome + " para caixa de " + opcoesTamanh[tamanhoSelecionado];
+    tituloProduto.innerText = "Pulseira loop esportiva " + opcoesCores[corSelecionada].nome + " para caixa de " + opcoesTamanho[tamanhoSelecionado];
 
     //mudar o tamanho da imagem de acordo com a opção de tamanho selecionada
     if (opcoesTamanho[tamanhoSelecionado] === '41 mm') {
@@ -65,7 +65,7 @@ function trocarCor() {
     corSelecionada = idOpcaoSelecionada.charAt(0);
 
     //trocar titulo da página
-    tituloProduto.innerText = "Pulseira loop esportiva " + opcoesCores[corSelecionada].nome + " para caixa de " + opcoesTamanh[tamanhoSelecionado];
+    tituloProduto.innerText = "Pulseira loop esportiva " + opcoesCores[corSelecionada].nome + " para caixa de " + opcoesTamanho[tamanhoSelecionado];
     
     //trocar nome da cor
     nomeCor.innerText = "Cor - " + opcoesCores[corSelecionada].nome;
